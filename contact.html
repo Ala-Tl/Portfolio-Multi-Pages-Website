@@ -45,26 +45,36 @@
     <main>
 
         <h1 class="hero">Contact Us</h1>
-        <p>
+        <p class="p">
             Do you have a question, feedback, or anything to say? reach us out now by filling the form bellow:
         </p>
 
         <form action="">
 
-            <label for="name">Name and Surname:</label>
-            <input type="text" name="UserName" id="name" placeholder="Full name here">
+            <div>
+                <label for="name">Name and Surname:</label>
+                <input type="text" name="UserName" id="name" placeholder="Full name here">
+            </div>
             
-            <label for="phone">Phone number:</label>
-            <input type="tel" id="phone" name="PhoneNum" placeholder="(+Prefix) 123 456 789">
+            <div>
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone" name="PhoneNum" placeholder="(+Prefix) 123 456 789">
+            </div>
 
-            <label for="mail">Email:</label>
-            <input type="email" name="mail" id="mail" placeholder="example@gmail.com">
+            <div>
+                <label for="mail">Email:</label>
+                <input type="email" name="mail" id="mail" placeholder="example@gmail.com">
+            </div>
 
-            <label for="message">Write us:</label>
-            <textarea id="message" name="message" placeholder="Write something here"></textarea>
+            <div>
+                <label for="message">Write us:</label>
+                <textarea id="message" name="message" placeholder="Write something here"></textarea>
+            </div>
 
-            <input type="submit">
-            <input type="reset">
+                <div class="buttons">
+                    <input type="submit">
+                    <input type="reset">
+                </div>
 
         </form>
 
